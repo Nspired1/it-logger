@@ -9,39 +9,53 @@
     },
     {
       "id": 2,
-      "message": "Fixed Hard drive in workstation 002",
-      "attention": false,
+      "message": "Replace hard drive and power unit in workstation 002",
+      "attention": true,
       "tech": "John Doe",
-      "date": "2021-10-08T12:07:13.084Z"
+      "date": "2021-10-08T17:52:27.505Z"
     },
     {
-      "message": "Change hard drive on server 123",
+      "message": "Replace GPU on laptop #112",
       "attention": false,
-      "tech": "Sam Smith",
-      "date": "2021-10-08T11:56:35.988Z",
-      "id": 3
+      "tech": "Sara Wilson",
+      "date": "2021-10-08T12:39:18.635Z",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "message": "Replace hard drive 212 on server 415",
+      "attention": true,
+      "tech": "Jill Smith",
+      "date": "2021-10-08T17:51:40.393Z"
+    },
+    {
+      "message": "Give class on using Redux & React for internal logging tool",
+      "attention": "",
+      "tech": "Piage Turner",
+      "date": "2021-10-08T17:51:32.028Z",
+      "id": 6
     }
   ],
   "techs": [
-    {
-      "id": 1,
-      "firstName": "John",
-      "lastName": "Doe"
-    },
-    {
-      "id": 2,
-      "firstName": "Sam",
-      "lastName": "Smith"
-    },
     {
       "id": 3,
       "firstName": "Sara",
       "lastName": "Wilson"
     },
     {
-      "firstName": "Paige",
-      "Turner": "Turner",
-      "id": 4
+      "firstName": "Greg ",
+      "lastName": "Harrison",
+      "id": 5
+    },
+    {
+      "firstName": "Jill",
+      "lastName": "Smith",
+      "id": 6
+    },
+    {
+      "firstName": "Piage",
+      "lastName": "Turner",
+      "id": 7
     }
   ]
 }
