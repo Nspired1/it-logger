@@ -1,25 +1,17 @@
 import React, { useState, useEffect } from "react";
+import { connect } from "react-redux";
 import LogItem from "./LogItem";
 import Preloader from "../layout/Preloader";
+import { getLogs } from "../../actions/logActions";
 
-const Logs = () => {
-  const [logs, setLogs] = useState([]);
-  const [loading, setLoading] = useState(false);
-
+// destructuring props for component use
+const Logs = ({ log: { logs, loading }, getLogs }) => {
   useEffect(() => {
     getLogs();
+    // eslint-dsiable-next-line
   }, []);
 
-  const getLogs = async () => {
-    setLoading(true);
-    const res = await fetch(`/logs`);
-    const data = await res.json();
-
-    setLogs(data);
-    setLoading(false);
-  };
-
-  if (loading) {
+  if (loading || logs === null) {
     return <Preloader />;
   }
 
@@ -39,4 +31,9 @@ const Logs = () => {
   );
 };
 
-export default Logs;
+// mapping App level state to component props
+const mapStateToProps = (state) => ({
+  log: state.log,
+});
+
+export default connect(mapStateToProps, { getLogs })(Logs);
