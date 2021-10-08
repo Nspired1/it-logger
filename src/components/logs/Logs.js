@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { connect } from "react-redux";
 import LogItem from "./LogItem";
 import Preloader from "../layout/Preloader";
@@ -6,10 +6,13 @@ import { getLogs } from "../../actions/logActions";
 
 // destructuring props for component use
 const Logs = ({ log: { logs, loading }, getLogs }) => {
-  useEffect(() => {
-    getLogs();
-    // eslint-dsiable-next-line
-  }, []);
+  useEffect(
+    () => {
+      getLogs();
+    },
+    // eslint-disable-next-line
+    []
+  );
 
   if (loading || logs === null) {
     return <Preloader />;
