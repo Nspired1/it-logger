@@ -36,7 +36,7 @@ Clone this repository, change directory into it, type `npm install`. To run both
 
 Redux isn't a long library (about 90 lines of code), but per its co-creator Dan Abramov, Redux is dense. Some of the concepts they used are difficult, but they wanted to make a capable state management library that was easier to use than Flux.
 
-The biggest difference between Redux and Flux is that Redux has only one state object to manage datea, while Flux has many for different parts of state. For small/medium applications there are few issues. For large applications with many different states, it is difficult to synchronize and update all state objects. To simplify that, they created Redux.
+The biggest difference between Redux and Flux is that Redux has only one state object to manage data, while Flux has many for different parts of state. For small/medium applications there are few issues. For large applications with many different states, it is difficult to synchronize and update all state objects. To simplify that, they created Redux.
 
 However, recently Dan Abramov said the React Context API is updated and improved, so for many applications he recommends using Context. For bigger or more complicated application, he recommends Redux, but it is good to understand and know both.
 
