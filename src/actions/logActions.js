@@ -75,8 +75,7 @@ export const deleteLog = (id) => async (dispatch) => {
   try {
     setLoading();
 
-    const res = await fetch(`/logs/${id}`, { method: "DELETE" });
-    const data = await res.json();
+    await fetch(`/logs/${id}`, { method: "DELETE" });
 
     dispatch({
       type: DELETE_LOG,
