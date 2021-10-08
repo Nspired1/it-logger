@@ -12,6 +12,8 @@ This is a simple IT Logger app that is practice working with Redux and React. It
 
 - [React](https://reactjs.org/) Front end library
 - [Redux](https://redux.js.org/) App state management
-- [React-Redux](https://react-redux.js.org/) Library that links React with Redux
+- [React-Redux](https://react-redux.js.org/) Library that connects React with Redux
+- [Redux-Devtools-Extension](https://www.npmjs.com/package/redux-devtools-extension) Easier way to use the Redux dev tools in browser
+- [Redux Thunk](https://www.npmjs.com/package/redux-thunk) Allows asynchronous functions inside Redux actions
 - [JSON Server](https://www.npmjs.com/package/json-server) Fake rest API
 - [Materialize CSS](https://materializecss.com/) CSS Framework like Material UI, but less code
