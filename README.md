@@ -14,3 +14,4 @@ This is a simple IT Logger app that is practice working with Redux and React. It
 - [Redux](https://redux.js.org/) App state management
 - [React-Redux](https://react-redux.js.org/) Library that links React with Redux
 - [JSON Server](https://www.npmjs.com/package/json-server) Fake rest API
+- [Materialize CSS](https://materializecss.com/) CSS Framework like Material UI, but less code
