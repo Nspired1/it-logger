@@ -34,6 +34,13 @@
       "tech": "Piage Turner",
       "date": "2021-10-08T17:51:32.028Z",
       "id": 6
+    },
+    {
+      "message": "Setup load balancer for new website rollout",
+      "attention": true,
+      "tech": "Piage Turner",
+      "date": "2021-10-08T18:15:14.690Z",
+      "id": 7
     }
   ],
   "techs": [
