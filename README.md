@@ -36,13 +36,13 @@ Clone this repository, change directory into it, type `npm install`. To run both
 
 Redux isn't a long library (about 90 lines of code), but per its co-creator Dan Abramov, Redux is dense. Some of the concepts they used are difficult, but they wanted to make a capable state management library that was easier to use than Flux.
 
-The biggest difference between Redux and Flux is that Redux has only one state object to manage data, while Flux has many for different parts of state. For small/medium applications there are few issues. For large applications with many different states, it is difficult to synchronize and update all state objects. To simplify that, they created Redux.
+The biggest difference between Redux and Flux is that Redux has only one state object to manage data, while Flux has many state objects for different parts of app state. For small/medium applications there are few issues. For large applications with many different states, it is difficult to synchronize and update all state objects. To simplify that, they created Redux. Redux reduces the different parts of state into one object.
 
-However, recently Dan Abramov said the React Context API is updated and improved, so for many applications he recommends using Context. For bigger or more complicated application, he recommends Redux, but it is good to understand and know both.
+However, recently Dan Abramov said the React Context API is updated and improved, so for many applications he recommends using Context. For bigger and more complicated application, he recommends Redux, but it is good to understand and know both.
 
-Per Brian Holt in his Intermediate React v3 course, he recommended starting with Context, then if the need arises to transition to Redux. There is more boilerplate and more code with Redux, so Redux adds a layer of complexity to components, but it can manage more features.
+Per Brian Holt in his Intermediate React v3 course, he recommended starting with Context, then if needed transition to Redux. There is more boilerplate and more code with Redux (and React-Redux), so there is another layer of complexity to components, but the app can manage more features.
 
-And in Steve Kinney's Redux Fundaments, he emphasizes there are only 9 (NINE!) Redux methods. Redux does a lot of hard things, but simplified them down to basic methods. Much of the boilerplate code comes from React-Redux library connecting the two. This is a good class that splits Redux from the React-Redux library in an effort to teach Redux itself.
+And in Steve Kinney's Redux Fundaments, he emphasizes there are ONLY 9 (NINE!) Redux methods. Redux does a lot of hard things, but simplified them down to basic methods. Much of the boilerplate code comes from the React-Redux library connecting the two. Redux Fundamentals is a good class that splits Redux from the React-Redux library in an effort to teach Redux itself (see below for link).
 
 ## Additional References
 
